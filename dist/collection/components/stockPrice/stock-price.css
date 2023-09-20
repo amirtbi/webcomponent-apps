@@ -1,0 +1,64 @@
+:host {
+  font-family: sans-serif;
+}
+
+.undefined,
+.error {
+  color: red;
+  padding: 0.75rem;
+}
+
+.error-box {
+  border: 2px solid red;
+}
+
+.muted-box {
+  border: 2px solid #ccc;
+}
+
+.success-box {
+  border: 2px solid rgb(28, 199, 28);
+}
+
+section {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+  max-width: 400px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+}
+#form div.field {
+  display: flex;
+  width: 100%;
+}
+#form input#symbol {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+#form input#symbol:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+#form #btn-submit {
+  background-color: rgb(15, 161, 22);
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+}
+#form #btn-submit[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

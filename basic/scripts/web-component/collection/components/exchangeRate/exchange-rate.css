@@ -1,0 +1,70 @@
+:host {
+  font-family: sans-serif;
+}
+
+:host(.error) input {
+  border: 1px solid red !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 400px;
+  padding: 2rem;
+}
+.wrapper .form-container {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .form-container .field {
+  display: flex;
+  width: 100%;
+  margin: 0.25rem;
+}
+.wrapper .form-container input {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.wrapper .form-container input:focus {
+  border: 1px solid #eee;
+}
+.wrapper .form-container button {
+  background-color: rgb(6, 90, 214);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.wrapper .form-container button:hover {
+  background-color: rgb(10, 80, 187);
+}
+.wrapper .list-container ul {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin: 1rem 0.25rem;
+  margin-top: 1rem;
+}
+.wrapper .list-container li {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: regular;
+  padding: 0.2rem 1rem;
+  border: 1px solid black;
+  margin: 0.75rem;
+  cursor: pointer;
+}
+.wrapper .list-container li:hover {
+  border: 1px solid rgb(255, 123, 0);
+  background-color: indianred;
+  color: white;
+}

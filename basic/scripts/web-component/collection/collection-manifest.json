@@ -1,0 +1,15 @@
+{
+  "entries": [
+    "components/exchangeRate/exchnage-rate.js",
+    "components/side-drawer/side-drawer.js",
+    "components/spinner/spinner.js",
+    "components/stockPrice/stock-price.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "4.1.0",
+    "typescriptVersion": "5.0.4"
+  },
+  "collections": [],
+  "bundles": []
+}

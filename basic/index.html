@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      nomodule
+      src="./scripts/web-component/esm/webcomponentapp.js"
+    ></script>
+    <script
+      type="module"
+      src="./scripts/web-component/webcomponentapp/webcomponentapp.esm.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div>
+          <stock-price stock-symbol="ETH-USD" title="Oil price"></stock-price>
+        </div>
+
+        <div>
+          <exchange-rate></exchange-rate>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
